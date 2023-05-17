@@ -1,0 +1,20 @@
+.main_content_workPlace_modal{
+    width: 10px;
+}
+
+.workplace_modal_tittle{
+    text-align: center;
+    color: red;
+}
+.input_workPlace{
+    padding: 2rem;
+    margin-top: 2px;
+    width: 100%;
+}
+.icon_for_edit{
+    margin-left: 12px;
+}
+
+.add_modal_message .res-message{
+    text-align: center;
+}

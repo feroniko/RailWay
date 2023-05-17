@@ -1,0 +1,5 @@
+.table_hover:hover{
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+    transition: .1s ease-out;
+}

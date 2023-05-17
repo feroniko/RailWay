@@ -1,0 +1,104 @@
+/* .body_neonButton{
+    background: rgb(48, 57, 226);
+  } */
+  
+  .content{
+    width:150px;
+    margin:auto;
+  }
+  /* .content > div{
+    margin-top:5px;
+  } */
+  
+  .btn-neon{
+    width:100%;
+    transition: 1s;
+    border-radius: 5px;
+  }
+  
+  .btn-neon > button{
+    width:100%;
+    background:none;
+    padding: 0.1rem;
+    font-size: 130%;
+    transition: 0.3s;
+  } 
+  
+  .btn-neon > button:hover{
+    border: 2px solid #eee;
+    color: #eee;
+  }
+  
+  .neon-green > button{
+      color: #0a3;
+      border: 2px solid #0a3;
+      box-shadow: inset 0px 0px 15px 0px rgba(36,255,120,0.5);
+  }
+  
+  .neon-green > button:hover{
+    box-shadow: inset 0px 0px 20px 6px rgba(36,255,120,1);
+    text-shadow: 0px 0px 10px rgba(36,255,120,1);
+  }
+  .neon-green:hover{
+    box-shadow: 0px 0px 20px 6px rgba(36,255,120,1);
+  }
+  
+  .neon-red > button{
+      color: #a33;
+      border: 2px solid #a33;
+      box-shadow: inset 0px 0px 15px 0px rgba(255,100,100,0.5);
+  }
+  .neon-red > button:hover{
+    box-shadow: inset 0px 0px 20px 6px rgba(255,100,100,1);
+    text-shadow: 0px 0px 10px rgba(255,100,100,1);
+  }
+  
+  .neon-red:hover{
+    box-shadow: 0px 0px 20px 6px rgba(255,100,100,1);
+  }
+  
+  .neon-blue > button{
+      color: #07a;
+      border: 2px solid #07a;
+    box-shadow: inset 0px 0px 15px 0px rgba(36,142,255,0.5);
+  }
+  
+  .neon-blue > button:hover{
+    box-shadow: inset 0px 0px 20px 6px rgba(36,142,255,1);
+    text-shadow: 0px 0px 10px rgba(36,142,255,1);
+  }
+  
+  .neon-blue:hover{
+    box-shadow: 0px 0px 20px 6px rgba(36,142,255,1);
+  }
+  
+  .neon-default > button{
+      color: #777;
+      border: 2px solid #555;
+    box-shadow: inset 0px 0px 15px 0px rgba(150,150,150,0.5);
+  }
+  
+  .neon-default > button:hover{
+    box-shadow: inset 0px 0px 20px 6px rgba(150,150,150,1);
+    text-shadow: 0px 0px 10px rgba(150,150,150,1);
+  }
+  
+  .neon-default:hover{
+    box-shadow: 0px 0px 20px 6px rgba(150,150,150,1);
+  }
+  
+  
+  .neon-yellow > button{
+      color: #aa3;
+      border: 2px solid #aa3;
+    box-shadow: inset 0px 0px 15px 0px rgba(180,180,20,0.5);
+  }
+  
+  .neon-yellow > button:hover{
+    box-shadow: inset 0px 0px 20px 6px rgba(180,180,20,1);
+    text-shadow: 0px 0px 10px rgba(180,180,20,1);
+  }
+  
+  .neon-yellow:hover{
+    box-shadow: 0px 0px 20px 6px rgba(180,180,20,1);
+  }
